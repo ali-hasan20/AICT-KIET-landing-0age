@@ -1,0 +1,225 @@
+
+/* General Styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+
+header {
+    background-color: #17365d;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+header h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+header p {
+    color: #dce8f5;
+}
+
+/* Navigation */
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    padding: 8px 12px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #315985;
+    border-radius: 4px;
+}
+
+/* Sections */
+
+section {
+    max-width: 1000px;
+    margin: 25px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 6px;
+}
+
+h2 {
+    color: #17365d;
+    margin-bottom: 18px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #d5e4f3;
+}
+
+/* Home Section */
+
+#home {
+    background-color: #e8f1fa;
+    text-align: center;
+    padding: 55px 30px;
+}
+
+#home h2 {
+    font-size: 28px;
+    border: none;
+}
+
+#home a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 22px;
+    background-color: #24558a;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+#home a:hover {
+    background-color: #17365d;
+}
+
+/* About Section */
+
+#about p {
+    margin-bottom: 12px;
+}
+
+/* Departments */
+
+ul {
+    padding-left: 25px;
+}
+
+ul li {
+    padding: 6px;
+}
+
+/* Programs Table */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th {
+    background-color: #17365d;
+    color: white;
+}
+
+th, td {
+    border: 1px solid #d5dce5;
+    padding: 13px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f0f5fa;
+}
+
+/* Admission Form */
+
+form {
+    max-width: 550px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #17365d;
+}
+
+input, select {
+    width: 100%;
+    padding: 11px;
+    margin-top: 6px;
+    border: 1px solid #cbd5e1;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #24558a;
+}
+
+button {
+    background-color: #24558a;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #17365d;
+}
+
+#message {
+    color: #24558a;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* Footer */
+
+footer {
+    background-color: #17365d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 35px;
+}
+
+/* Responsive Design */
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav a {
+        margin: 5px;
+        padding: 6px;
+    }
+
+    section {
+        margin: 15px;
+        padding: 20px;
+    }
+
+    #home {
+        padding: 35px 20px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+
+}
